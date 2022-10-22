@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(const StarterApp());
+void main() => runApp(const AdhanTimeApp());
 
-class StarterApp extends StatelessWidget {
-  const StarterApp({super.key});
+class AdhanTimeApp extends StatelessWidget {
+  const AdhanTimeApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      title: 'Starter App',
+    return MaterialApp(
+      title: 'Adhan Time',
       home: HomePage(),
     );
   }
@@ -19,6 +19,6 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return Scaffold();
   }
 }
